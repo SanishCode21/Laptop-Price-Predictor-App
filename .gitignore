@@ -1,2 +1,51 @@
 *.pdf
 
+# Virtual Environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Streamlit cache
+.streamlit/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+temp/
+tmp/
+
+# Pytest cache
+.pytest_cache/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Docker
+docker-compose.override.yml
+
+# Model artifacts (optional)
+# Uncomment if model files become large
+# *.joblib
+# *.pkl
+
+
